@@ -23,7 +23,7 @@
         }
     ],
     "require": {
-	    "the-osgarden/osg-base": "dev-master",
+	    "the-osgarden/osg-base": "dev-master"
     },
     "autoload": {
 	    "psr-0": {
