@@ -4,6 +4,7 @@
     "homepage": "http://www.cllcmedia.com",
     "type": "library",
     "license": "TBD",
+    "version": "0.8.0@dev",
     "authors": [
         {
             "name": "Geoff Oslund",
