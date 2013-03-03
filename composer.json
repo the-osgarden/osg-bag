@@ -17,10 +17,7 @@
         }
     ],
     "repositories": [
-        {
-            "type": "composer",
-            "url":"http://the-osgarden.fatrobinconsulting.com"
-        }
+        { "type": "vcs", "url": "https://github.com/the-osgarden/osg-bag.git" }
     ],
     "autoload": {
 	    "psr-0": {
