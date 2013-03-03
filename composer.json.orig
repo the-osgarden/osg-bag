@@ -1,0 +1,38 @@
+{
+<<<<<<< HEAD
+    "name": "the-osgarden/osg-bag",
+=======
+    "name": "the-osgarden/bags",
+>>>>>>> master
+    "description": "Angular based Kiosk Application",
+    "homepage": "http://www.cllcmedia.com",
+    "type": "library",
+    "license": "TBD",
+    "version": "0.8.0@dev",
+    "authors": [
+        {
+            "name": "Geoff Oslund",
+            "email": "geoff@cllcmedia.com",
+            "homepage": "http://www.cllcmedia.com"
+        },
+        {
+            "name": "Jonathan Phillips",
+            "email": "jon@cllcmedia.com",
+            "homepage": "http://www.cllcmedia.com"
+        }
+    ],
+    "repositories": [
+<<<<<<< HEAD
+        { "type": "vcs", "url": "https://github.com/the-osgarden/osg-base.git" },
+        { "type": "vcs", "url": "https://github.com/the-osgarden/osg-bag.git" }
+=======
+            { "type": "vcs", "url": "https://github.com/the-osgarden/osg-bag.git" }
+>>>>>>> master
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+	    "psr-0": {
+	        "CES": "src/"
+	    }
+	}
+}
