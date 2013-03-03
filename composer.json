@@ -17,6 +17,7 @@
         }
     ],
     "repositories": [
+        { "type": "vcs", "url": "https://github.com/the-osgarden/osg-base.git" },
         { "type": "vcs", "url": "https://github.com/the-osgarden/osg-bag.git" }
     ],
     "autoload": {
