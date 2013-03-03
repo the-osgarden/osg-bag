@@ -22,9 +22,6 @@
             "url":"http://the-osgarden.fatrobinconsulting.com"
         }
     ],
-    "require": {
-	    "the-osgarden/osg-base": "dev-master"
-    },
     "autoload": {
 	    "psr-0": {
 	        "CES": "src/"
