@@ -1,4 +1,5 @@
 {
+
     "name": "the-osgarden/osg-bag",
     "description": "Angular based Kiosk Application",
     "homepage": "http://www.cllcmedia.com",
@@ -18,13 +19,12 @@
         }
     ],
     "repositories": [
-        { "type": "vcs", "url": "https://github.com/the-osgarden/osg-base.git" },
-        { "type": "vcs", "url": "https://github.com/the-osgarden/osg-bag.git" }
+            { "type": "vcs", "url": "https://github.com/the-osgarden/osg-bag.git" }
     ],
     "minimum-stability": "dev",
     "autoload": {
 	    "psr-0": {
-	        "CES": "src/"
+	        "OSG": "src/"
 	    }
 	}
 }
