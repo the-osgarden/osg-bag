@@ -40,7 +40,7 @@ abstract class AbstractBag {
 		
 
 		if(strcmp(getType($mixed), "array") == 0) {
-			$bag = json_decode($mixed);
+			$bag = $mixed;
 			$this->bag[] = $bag;
 		} else if (sizeof($mixed) > 0) {
 			var_dump(getType($mixed));
