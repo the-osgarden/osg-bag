@@ -2,6 +2,10 @@
 namespace OSG\Bag;
 
 class ParameterBag extends AbstractBag {
+<<<<<<< HEAD
+=======
 	public function __construct() {
 		$this->bagType = "ParameterBag";
+	}
+>>>>>>> master
 }
