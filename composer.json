@@ -19,7 +19,7 @@
         }
     ],
     "repositories": [
-            { "type": "vcs", "url": "https://github.com/the-osgarden/osg-bag.git" }
+            { "type": "git", "url": "https://github.com/the-osgarden/osg-bag.git" }
     ],
     "minimum-stability": "dev",
     "autoload": {
