@@ -37,10 +37,13 @@ abstract class AbstractBag {
 			$this->bag->push($mixed);
 		} 
 
-		if(getType($mixed) != "array") {
+		
+
+		if(strcmp(getType($mixed), "array") == 0) {
 			$bag = json_decode($mixed);
 			$this->bag[] = $bag;
 		} else if (sizeof($mixed) > 0) {
+			var_dump(getType($mixed));
 			$this->bag[] = $mixed;
 		}
 	}
