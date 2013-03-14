@@ -13,9 +13,14 @@ abstract class AbstractBag {
 	*/
 	private $bag = array();
 
+<<<<<<< HEAD
 	public function __construct() {
 		//$bag[] = array('BagType' => $this->bagType);
 		//var_dump($this->bagType);
+=======
+	public function __construct($json_string = array()) {
+	
+>>>>>>> 012f9efbbc624f6eb565ab89946016b4c055384c
 	}
 
 
@@ -28,6 +33,8 @@ abstract class AbstractBag {
 	public function removeBag(AbstractBag $bag) {
 		for($i = 0; $i < $bag; $i++) {
 
+<<<<<<< HEAD
+=======
 		}
 	}
 
@@ -42,20 +49,45 @@ abstract class AbstractBag {
 			$this->bag[] = $bag;
 		} else if (sizeof($mixed) > 0) {
 			$this->bag[] = $mixed;
+>>>>>>> 012f9efbbc624f6eb565ab89946016b4c055384c
 		}
+	}
+
+	//can accept both an array and a json string as parameters
+	public function addToBag($mixed = array()) {
+		$this->call_count += 1;
+		if ($mixed instanceof AbstractBag) {
+			$this->addBag($mixed);
+			return;
+		} 
+
+		//var_dump($mixed);
+
+<<<<<<< HEAD
+		if(getType($mixed) == "string") {
+			if($this->call_count > 10) {
+				die();
+			} 
+			$this->bag[] = json_decode($mixed);
+		} else if (sizeof($mixed) > 0) {
+			$this->bag[] = $mixed;
+		}
+
+
 	}
 
 
 	public function getBag() {
 		return $this->bag;
+=======
+	public function getBag() {
+		return $this->bag();
+>>>>>>> 012f9efbbc624f6eb565ab89946016b4c055384c
 	}
 
 	public function getJsonBag() {
 		return json_encode($this->bag);
 	}
-
-	//can accept both an array and a json string as parameters
-	
 
 	//TODO
 	public function removeFromBag() {
